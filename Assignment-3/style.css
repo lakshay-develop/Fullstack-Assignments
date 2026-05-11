@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background: url('https://cdn.discordapp.com/attachments/1484217795024650410/1502733686473490564/background.png?ex=6a021ace&is=6a00c94e&hm=d4250b4126c50f387e5c6fdf2f53ba33b76ed95a00116d57104ac17a20e1870e');
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+#nav i{
+    font-size: 26px;
+    color: white;
+}
+#links{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+#tdiv{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    padding: 0px 150px;
+}
+#frst{
+    height: 100%;
+    width: 50%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#frst p{
+    color: white;
+}
+#frst #btn1{
+    padding: 10px 20px;
+    background: linear-gradient(to right,pink,red,orange);
+    border-radius: 12px;
+    border-style: none;
+}
+#frst #btn2{
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 12px;
+    border-style: none;
+    border: 2px solid palevioletred;
+    color: white;
+}
+#scnd{
+    height: 100%;
+    width: 50%;   
+}
+#scnd img{
+    width: 100%;
+}
+#thdiv{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#thdiv #frst{
+    width: 25%;
+    height: 80%;
+    background: url('./images/image1.png');
+    background-size: contain;
+    border-radius: 9px;
+    box-shadow: 2px 2px 7px 0px gray;
+}
+#thdiv #scnd{
+    width: 25%;
+    height: 80%;
+    background: url('./images/image2.png');
+    background-size:contain;
+    border-radius: 9px;
+    box-shadow: 2px 2px 7px 0px gray;
+}
+#thdiv #thrd{
+    width: 25%;
+    height: 80%;
+    background: url('./images/image3.png');
+    background-size: contain;
+    border-radius: 9px;
+    box-shadow: 2px 2px 7px 0px gray;
+}

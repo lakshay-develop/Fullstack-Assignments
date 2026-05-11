@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  height: 13%;
+  position: relative;
+}
+
+#logo {
+  font-size: 37px;
+  font-weight: 545;
+  position: relative;
+  top: 45%;
+  left: 6%;
+}
+#dotLogo {
+  color: grey;
+}
+#navLinks {
+  position: absolute;
+  top: 60%;
+  left: 37%;
+}
+#navLinks > a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  margin: 15px;
+  position: relative;
+}
+#navLinks > a:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 50%;     
+  height: 2px;
+  background-color: gray;
+  transform: translateX(-50%)
+}
+#icons {
+  position: absolute;
+  font-size: 22px;
+  top: 56%;
+  right: 10%;
+}
+#icons i {
+  margin: 0px 13px;
+}
+main{
+    height: 65%;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 0;
+}
+#productDetails{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    height: 100%;
+}
+#productDetails #first{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+#productDetails #first #divHead{
+    font-size: 13px;
+    position: absolute;
+    left: 17%; 
+    bottom: 0;
+    color: gray;
+    font-weight: 200;
+}
+#productDetails #second{
+    width: 100%;
+    height: 45%;
+    position: relative;
+}
+#productDetails #second #secondHead{
+    font-size: 70px;
+    font-weight: 300;
+    position: absolute;
+    left: 17%;
+    line-height: 0.8;
+    color: rgb(31, 30, 30);
+    margin-top: 10px;
+}
+#productDetails #second #twohr{
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    left: 18%;
+    top: 75%;
+}
+#productDetails #second #twop{
+    font-size: 15px;
+    position: absolute;
+    left: 18%;
+    bottom: -10%;
+    color: rgb(82, 81, 81);
+}
+#productDetails #third
+{
+    height: 15%;
+    margin: 20px 0px;
+    position: relative;
+}
+#productDetails #third #thcol{
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    margin-right: 35px;
+}
+#productDetails #third .thact{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0px 15px;
+    border-radius: 50%;
+}
+#productDetails #third #green{
+    background-color: royalblue;
+    box-shadow: 1px 1px 6px 0 royalblue;
+}
+#productDetails #third #gray{
+    background-color: rosybrown;
+    box-shadow: 1px 1px 6px 0 rosybrown;
+}
+#productDetails #third #pink{
+    background-color: crimson;
+    box-shadow: 1px 1px 6px 0 crimson;
+}
+#third>div{
+    position: absolute;
+    left: 17%;
+    bottom: 0;
+}
+#productDetails #four{
+    height: 22%;
+    position: relative;
+}
+#productDetails #four #details{
+    position: absolute;
+    left: 17%;
+    width: 300px;
+}
+#productDetails #four #details span{
+    font-size: 18px;
+    margin-right: 15px;
+}
+#productDetails #four #details hr{
+    display: inline-block;
+    width: 22px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+     top: 10px;
+}
+#productDetails #four #details p{
+    height: 12%;
+    font-size: 16px;
+    color: rgb(86, 82, 82);
+}
+#productImage{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    height: 100%;
+    margin-top: 25px;
+    position: relative;
+}
+#productImage #prc{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    padding: 6px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+#productImage #bgimg{
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/ChatGPT\ Image\ May\ 10\,\ 2026\,\ 08_50_17\ PM.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px grey;
+}
+#productImage #atb{
+    width: 110px;
+    height: 110px;
+    background-color: rgb(121, 22, 22);
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 28px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+#productImage #atb i{
+    font-size: 24px;
+}
+#productThumbnails{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    height: 100%; 
+    margin-top: 25px;
+}
+#productThumbnails .thumb{
+    height: 100px;
+    width: 80px;
+    margin: 15px 60px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 0px gray;
+}
+#productThumbnails #fimg{
+    background-image: url('./images/image1.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid skyblue;
+}
+#productThumbnails #simg{
+    background-image: url('./images/image2.png');
+    background-size: cover;
+    background-position: center;
+}
+#productThumbnails #timg{
+    background-image: url('./images/image3.png');
+    background-size: cover;
+    background-position: center;
+}
+#productThumbnails #foimg{
+    background-image: url('./images/image4.png');
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    height: 15%;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+}
+#on, #tw, #th {
+  display: inline-block;
+  margin: 0 20px;
+}
+footer #first{
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    left: 4%;
+    text-align: center;
+}
+footer #second{
+    display: inline-block;
+    height: 55%;
+    width: 40%;
+    position: absolute;
+    right: 20%;
+    text-align: center;
+    box-shadow: 2px 2px 12px 0px gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+footer .txt{
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+}
+footer .symb{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(231, 222, 222);
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+#on, #tw {
+  border-right: 1px solid rgb(200, 200, 200);
+  padding-right: 23px;
+}
